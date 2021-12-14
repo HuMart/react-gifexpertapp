@@ -3,18 +3,31 @@
 }
 
 body {
-  padding: 60px;
-  background: #405BCE;
-background: -moz-radial-gradient(center, #405BCE 0%, #217ED8 15%, #0A1151 100%);
-background: -webkit-radial-gradient(center, #405BCE 0%, #217ED8 15%, #0A1151 100%);
-background: radial-gradient(ellipse at center, #405BCE 0%, #217ED8 15%, #0A1151 100%);
-color: white;
+  padding: 90px;
+  background: #c4fa97;
+  background: -moz-radial-gradient(center, #baf5ba 0%, #97ffa9 15%, #0a510a 100%);
+  background: -webkit-radial-gradient(center, #68ce40 0%, #8cce83 15%, #0a5110 100%);
+  background: radial-gradient(ellipse at center, #74ce40 0%, #a3f59c 15%, #10510a 100%);
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: black;
+}
+form{
+  padding-left: 37%;
+  width: 25%;
+  align-self: center;
+  
 }
 
 input {
   width: 100%;
   font-size: 1.3rem;
   color: grey;
+  border-radius: 5px;
+  align-self: center;
 }
 
 .card {
@@ -26,6 +39,7 @@ input {
   border-radius: 6px;  
   margin-bottom: 30px;
   margin-right: 30px;
+  
   /* overflow: hidden; */
 }
 
@@ -41,8 +55,8 @@ input {
 .card img {
   
   
-  max-height: 170px;
-  
+  max-height: 110px;
+  box-sizing: inherit;
 }
 
 .card-grid {
