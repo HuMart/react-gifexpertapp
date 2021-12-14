@@ -1,5 +1,5 @@
 {
-  "homepage": "https://humart.github.io/react-gifexpertapp/",
+  "homepage": ".",
   "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "build-and-docs": "react-scripts build && node create-docs.js",
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
